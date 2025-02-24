@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable before it has been initialized. This is common when using functional components and the useState hook.  Because state updates are asynchronous, your component might try to render before the state has had a chance to update.
